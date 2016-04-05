@@ -1,5 +1,4 @@
 
-
 body {
 	 
 	 background-color: #FFCC61; 
@@ -37,7 +36,7 @@ h3 {
 	background-repeat:repeat; filter: alpha(Opacity=90);
 }
 
-.links {
+.navbar {
 	background-color: rgba(255,122,97,0.8); 
 	color: #870055; font-family: 'Audiowide', cursive; font-size: 24px; border-radius: 30px; 
 	text-align: center; 
@@ -48,8 +47,9 @@ blockquote {
 }
 
 ul {
-	list-style-type: square;
+	list-style-type: none;
 	list-style-position: inside;
+
 }
 
 li.bar {
