@@ -36,11 +36,32 @@ h3 {
 	background-repeat:repeat; filter: alpha(Opacity=90);
 }
 
-.navbar {
-	background-color: rgba(255,122,97,0.8); 
-	color: #870055; font-family: 'Audiowide', cursive; font-size: 24px; border-radius: 30px; 
-	text-align: center; 
-}
+
+#nav {
+	width: 100%;
+	float: left;
+	margin: 0 0 3em 0;
+	padding: 0;
+	list-style: none; 
+	background-color: rgba(255,122,97,0.8);
+	border-radius: 30px;
+	}
+
+#nav li a {
+	display: inline;
+	padding: 15px 15px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #870055; font-family: 'Audiowide', cursive; 
+	border-right: 1px solid #870055; }
+
+#nav li {
+	float: left; }
+
+#nav li a:hover {
+	color: #c00;
+	background-color: #fff;	
+
 
 blockquote {
 	font-size: 18px; font-style: italic; color: #AD4E00;
@@ -50,11 +71,6 @@ ul {
 	list-style-type: none;
 	list-style-position: inside;
 
-}
-
-li.bar {
-	display: inline;
-	margin-right: 10px;
 }
 
 
@@ -125,4 +141,6 @@ fieldset {
 legend {
 	font-family: 'Audiowide', cursive; font-size: 24px;
 }
+
+
 
