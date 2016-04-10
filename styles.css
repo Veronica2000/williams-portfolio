@@ -37,27 +37,6 @@ h3 {
 	background-repeat:repeat; filter: alpha(Opacity=90);
 }
 
-.links {
-	background-color: rgba(255,122,97,0.8); 
-	color: #870055; font-family: 'Audiowide', cursive; font-size: 24px; border-radius: 30px; 
-	text-align: center; 
-}
-
-blockquote {
-	font-size: 18px; font-style: italic; color: #AD4E00;
-}
-
-ul {
-	list-style-type: square;
-	list-style-position: inside;
-}
-
-li.bar {
-	display: inline;
-	margin-right: 10px;
-}
-
-
 img.small {
 	width: 200px;
 	height: 200px;
@@ -66,6 +45,43 @@ img.small {
 	margin: 40px;
 	box-shadow: 5px 5px 5px #1F0310;
 }
+
+blockquote {
+	font-size: 18px; font-style: italic; color: #AD4E00;
+}
+
+
+
+#nav {
+	width: 100%;
+	float: left;
+	margin: 0 0 3em 0;
+	padding: 0;
+	list-style: none; 
+	background-color: rgba(255,122,97,0.8);
+	border-radius: 30px;
+	text-align: center;
+	}
+
+
+
+#nav li {
+	float: left; }
+
+#nav li a {
+	display: block;
+	padding: 15px 15px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #870055; font-family: 'Audiowide', cursive; 
+	font-size: 24px;
+	border-right: 1px solid #870055; }
+
+#nav li a:hover {
+	color: #ccc;
+	background-color: #F43D93;	
+
+
 
 /*form*/
 
